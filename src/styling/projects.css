@@ -1,41 +1,80 @@
-.projects-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 5rem;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .projects-wrapper h3 {
+        font-family: monospace;
+        font-size: 1.5rem;
+    }
+
+    .projects-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .projects-wrapper h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
+        color: lightsalmon;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-container {
+        margin-bottom: 1rem;
+    }
+    
 }
 
-.projects-wrapper h3 {
-    font-family: monospace;
-    font-size: 1.5rem;
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .projects-wrapper h3 {
+        font-family: monospace;
+        font-size: 1.5rem;
+    }
 
-.projects-wrapper h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin: 0;
-    padding: 0;
-    color: lightsalmon;
+    .projects-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5rem;
+    }
+
+    .projects-wrapper h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+        color: lightsalmon;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .project-container {
+        margin-bottom: 3rem;
+    }
+    
 }
 
 .projects-wrapper p {
     line-height: 1.25rem;
 }
 
-.project-container {
-    display: flex;
-    flex-direction: row;
-}
-
 .projects-about {
     padding: 0 1rem 1rem 1rem;
     display: flex;
     flex-direction: column;
-}
-
-.project-container {
-    margin-bottom: 3rem;
 }
 
 .bottom-border {

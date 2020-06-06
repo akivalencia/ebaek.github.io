@@ -1,4 +1,4 @@
-import React, { history } from 'react';
+import React from 'react';
 import Popup from './popup';
 import { Link } from 'react-router-dom';
 import '../styling/navbar.css';

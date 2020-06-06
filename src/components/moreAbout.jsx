@@ -8,9 +8,7 @@ const MoreAbout = () => {
             <div className="more-about-rect">
                 <div className="more-about-row">
                     <h2 className="more-about-header">More
-                        <br></br>
                         About
-                        <br></br>
                         Me</h2>
                     <div className="more-about-first-col">
                         <p>Working in {'<tech/>'} has always been a dream of mine (prior to that it was being a rapper).
