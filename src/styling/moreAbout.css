@@ -1,0 +1,37 @@
+.more-about-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.more-about-rect {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    padding: 3rem;
+    max-width: 70rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.more-about-header {
+    font-family: arial;
+    font-weight: 600;
+    padding-right: 1rem;
+    color: lightgreen;
+}
+
+.more-about-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.more-about-first-col, .more-about-second-col {
+    width: 40%;
+    margin-left: 1rem;
+}
+
+.more-about-wrapper p {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}

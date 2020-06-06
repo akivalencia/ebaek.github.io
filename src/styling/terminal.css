@@ -1,0 +1,128 @@
+.terminal-wrapper {
+    margin-top: 15%;
+    max-width: 50rem;
+}
+
+.terminal-bar {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 1rem;
+    padding: 0.3rem;
+}
+
+.circle {
+    clip-path: circle(50%);
+    height: 0.75rem;
+    width: 0.75rem;
+    margin-right: 0.25rem;
+}
+
+.terminal-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 33.33%
+}
+
+.red-dot {
+    background:#ff4747;
+}
+
+.yellow-dot {
+    background: #f2e74e;
+}
+
+.green-dot {
+    background: #35de68;
+}
+
+.terminal-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 1.25rem;
+    width: 33.33%;
+}
+
+.terminal-title p {
+    font-family: arial;
+    margin: 0;
+}
+
+.terminal-first-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.terminal-first-line-comp {
+    margin-right: 0.5rem !important;
+}
+
+.terminal-body {
+    height: 25rem;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0.5rem;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.terminal-body p, .terminal-body a {
+    margin: 0;
+    font-family: monospace;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.terminal-body a {
+    font-size: 1rem;
+}
+
+.terminal-empty {
+    width: 33%;
+}
+
+.about-cat {
+    padding-left: 0.1rem;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .01em; /* Adjust as needed */
+    animation: 
+      typing 1s steps(20, end),
+      blink-caret .75s step-end infinite;
+}
+  
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 15% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.about-cat-body {
+    animation: 1.5s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+    99% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+}

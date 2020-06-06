@@ -1,0 +1,52 @@
+.projects-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.projects-wrapper h3 {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.projects-wrapper h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    color: lightsalmon;
+}
+
+.projects-wrapper p {
+    line-height: 1.25rem;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects-about {
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-container {
+    margin-bottom: 3rem;
+}
+
+.bottom-border {
+    border-bottom: 1px solid orange;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.thumbnail {
+    width: auto;
+    max-width: 20rem;
+    height: auto;
+    max-height: 25rem;
+}
