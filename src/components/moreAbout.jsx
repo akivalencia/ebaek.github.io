@@ -22,7 +22,7 @@ const MoreAbout = () => {
                         </p>
                     </div>
                     <div className="more-about-second-col">
-                        <p>In my free time, I enjoy playing with my Shiba Inu Yoko and rooting for my favorite NBA players. When I can,
+                        <p>In my free time, I enjoy playing with my Shiba Inu, Yoko, and rooting for my favorite NBA players. When I can,
                             I enjoy playing squash (I played competitively in college). I've also been dabbling in competitive
                             programming.
                         </p>
