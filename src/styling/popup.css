@@ -9,10 +9,7 @@
         top: 0;
         background-color: white;
         overflow-x: hidden; 
-        transition: 0.5s;
         padding: 1rem;
-        animation-duration: 0.4s;
-        animation-name: fadein;
     }
 
     .popup-left {
@@ -86,8 +83,6 @@
         right: 0;
         height: 100vh;
         background-color: white;
-        animation-duration: 0.4s;
-        animation-name: fadein;
     }
 
     .popup-left, .popup-right {
@@ -146,7 +141,7 @@
     }
 }
 
-@keyframes fadein {
+/* @keyframes fadein {
     from {
       opacity: 0%;
       margin-left: 100%;
@@ -156,7 +151,7 @@
       opacity: 100%;
       margin-left: 0%;
     }
-}
+} */
 
 .popup-link:hover {
     color: lightpink;
