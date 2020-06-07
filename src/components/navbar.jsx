@@ -9,7 +9,7 @@ const Navbar = () => {
     return(
         <div>
             {listOpen &&
-                <Popup setListOpen={setListOpen} listOpen={listOpen}/>
+                <Popup setListOpen={setListOpen} listOpen={listOpen} className={`list-open-${listOpen}`}/>
             }
             <div className="navbar-wrapper">
                 <Link className="title" to="/">ESTHER BAEK</Link>

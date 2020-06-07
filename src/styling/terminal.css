@@ -32,6 +32,8 @@
     .terminal-wrapper {
         margin-top: 15%;
         max-width: 50rem;
+        animation-duration: 0.7s;
+        animation-name: slidein;
     }
 
     .terminal-body p, .terminal-body a {
@@ -53,6 +55,15 @@
     }
 }
 
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
 
 .terminal-bar {
     background-color: #f2f2f2;

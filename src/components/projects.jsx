@@ -19,9 +19,8 @@ const Projects = () => {
 
                     <div className="projects-about">
                         <h3>Personal Website</h3>
-                        <p>Chances are you're viewing my personal website right now! My original website was
-                            based on a template and I wanted to put my React skills to the test. I'd like to add
-                            a blog as a future feature. More to come soon :) 
+                        <p>Chances are you're viewing my personal website right now! This site is both web and mobile responsive.
+                            I'd like to add a blog as a future feature. Peep back soon for some more updates :) 
                         </p>
                         
                         <p>Read more <a href="https://github.com/ebaek/ebaek.github.io">here</a>.</p>
