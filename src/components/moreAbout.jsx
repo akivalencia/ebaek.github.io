@@ -14,11 +14,6 @@ const MoreAbout = () => {
                         <p>Working in {'<tech/>'} has always been a dream of mine (prior to that it was being a rapper).
                             I enjoy the creativity and problem-solving skills involved in software engineering. I love how I'm
                             constantly learning new technologies and debugging pesky bugs.
-                            <br></br>
-                            <br></br>
-                            Currently, I work at IBM as a part of the
-                            Cloud Pak Acceleration Team in New York City. I help enterprises migrate their mission critical
-                            workloads onto the cloud.
                         </p>
                     </div>
                     <div className="more-about-second-col">

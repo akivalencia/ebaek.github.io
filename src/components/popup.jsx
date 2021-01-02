@@ -33,8 +33,7 @@ const Popup = ({setListOpen, listOpen}) => {
                 <img className="me" alt="me" src={process.env.PUBLIC_URL + '/me.png'} /> 
 
                 <h3>I'm Esther.</h3>
-                <p>I'm a software engineer at IBM working under the Cloud Pak Acceleration Team.
-                    I help enterprises move their mission critical workloads onto the cloud.
+                <p>I'm a software engineer at Google, where I help make the TV and Movies experience better on Google Search.
                 </p>
                 
                 <div className="social-media-links">
